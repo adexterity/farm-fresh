@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,26 +17,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --primary-color: #007F5F;
+  --primary-color: #2B9348;
+  --primary-color: #55A630;
+  --primary-color: #80B918;
+  --primary-color: #AACC00;
+  --primary-color: #BFD200;
+  --primary-color: #D4D700;
+  --primary-color: #DDDF00;
+  --primary-color: #EEEF20;
+  --primary-color: #FFFF3F;
 }
 
-/* a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
- */
 
 *{
   margin: 0;
@@ -53,7 +48,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -70,7 +65,7 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 #app {
   max-width: 1280px;
@@ -79,14 +74,19 @@ button:focus-visible {
   text-align: center;
 }
 
+.nav-links{
+
+@apply cursor-pointer hover:font-xl border-b-2 border-transparent hover:border-primary-300; 
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
+  /* a:hover {
     color: #747bff;
-  }
+  } */
   button {
     background-color: #f9f9f9;
   }
