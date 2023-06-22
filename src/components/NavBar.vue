@@ -3,8 +3,8 @@
 </script>
 
 <template>
-    <div>
-        <nav class="bg-white h-10 flex justify-around items-center font-body  py-[50px] text-xl">
+    <div class="fixed top-0  sticky container">
+        <nav class="h-10 flex justify-around items-center font-body  py-[50px] text-xl">
             <h2 class="logo">
                 <a href="#" class="text-[36px] text-primary-300 font-xl">
                     <span class="logo-img">

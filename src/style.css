@@ -68,15 +68,19 @@ button:focus-visible {
 } */
 
 #app {
-  max-width: 1280px;
+  /* max-width: 1280px;
   margin: 0 auto;
-  /* padding: 2rem; */
-  text-align: center;
+  padding: 2rem;
+  text-align: center; */
+}
+
+.container{
+  @apply my-0 mx-auto w-[80vw] border border-black;
 }
 
 .nav-links{
 
-@apply cursor-pointer hover:font-xl border-b-2 border-transparent hover:border-primary-300; 
+@apply cursor-pointer border-b-2 border-transparent hover:border-primary-300; 
 }
 
 @media (prefers-color-scheme: light) {
@@ -84,10 +88,6 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
-  /* a:hover {
-    color: #747bff;
-  } */
-  button {
-    background-color: #f9f9f9;
-  }
+ 
+  
 }
