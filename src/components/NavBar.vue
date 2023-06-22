@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="fixed top-0  sticky container">
+    <div class="top-0  sticky container z-10">
         <nav class="h-10 flex justify-around items-center font-body  py-[50px] text-xl">
             <h2 class="logo">
                 <a href="#" class="text-[36px] text-primary-300 font-xl">

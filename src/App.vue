@@ -1,12 +1,25 @@
 <script setup>
 import NavBar from './components/NavBar.vue';
 import HeroSection from './components/HeroSection.vue';
+import Catalogue from './components/Catalogue.vue';
+import WhyFarmFresh from './components/WhyFarmFresh.vue';
 </script>
 
 <template>
   <div class="bg-[url('./src/assets/Ellipse.jpg')] bg-no-repeat">
+
+    <!-- navbar -->
     <NavBar />
+
+    <!-- hero section -->
     <HeroSection />
+
+    <!-- catalogue section -->
+    <Catalogue />
+
+    <!-- whyFarmFresh section -->
+    <WhyFarmFresh />
+
   </div>
 </template>
 
