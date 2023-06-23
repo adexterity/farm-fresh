@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class="h-[100vh] font-body relative border">
+    <section class="min-h-[100vh] font-body relative border py-[5px]">
         <img src="../assets/emojione.jpg" class="absolute top-0 left-0 z-[2]" />
         <div class="container flex justify-around items-center">
             <div class="catalogue-text z-[4]">
