@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection.vue';
 import Catalogue from './components/Catalogue.vue';
 import WhyFarmFresh from './components/WhyFarmFresh.vue';
 import Testimonial from './components/Testimonials.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
