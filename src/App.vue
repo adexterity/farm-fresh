@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.vue';
 import HeroSection from './components/HeroSection.vue';
 import Catalogue from './components/Catalogue.vue';
 import WhyFarmFresh from './components/WhyFarmFresh.vue';
+import Testimonial from './components/Testimonials.vue';
 </script>
 
 <template>
@@ -19,6 +20,9 @@ import WhyFarmFresh from './components/WhyFarmFresh.vue';
 
     <!-- whyFarmFresh section -->
     <WhyFarmFresh />
+
+    <!-- testimonail section -->
+    <Testimonial />
 
   </div>
 </template>
