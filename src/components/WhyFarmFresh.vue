@@ -3,16 +3,17 @@
 </script>
 
 <template>
-    <section class="border min-h-[100vh] py-[35px] font-body relative">
+    <section class="min-h-[100vh] py-[35px] font-body relative">
         <img class="absolute bottom-0 left-0" src="../assets/why-watermelon-icon.svg" />
 
-        <div class="container flex justify-between items-center gap-4 px-[10px]">
-            <div class="relative max-w-[full]">
+        <div
+            class="container flex flex-col md:flex-row md:flex-nowrap flex-wrap md:justify-between items-center gap-4 px-[10px]">
+            <div class="relative">
                 <img class="rounded-[25px] max-w-[full] h-auto" src="../assets/woman-eating.png"
                     alt="picture of a lady eating" />
             </div>
             <div class="flex flex-col items-center">
-                <h3 class="font-bold text-[40px] mb-[30px] text-black">Why Choose Farm Fresh?</h3>
+                <h3 class="font-bold text-[20px] md:text-[40px] mb-[30px] text-black">Why Choose Farm Fresh?</h3>
 
                 <img src="../assets/why-vehicle-icon.svg" />
                 <h4 class="font-bold py-4 text-black">Nationwide Delivery</h4>

@@ -17,6 +17,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 
   --primary-color: #007F5F;
   --primary-color: #2B9348;
@@ -28,6 +29,7 @@
   --primary-color: #DDDF00;
   --primary-color: #EEEF20;
   --primary-color: #FFFF3F;
+  
 }
 
 
@@ -37,6 +39,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
  body {
   margin: 0;
   min-width: 320px;
@@ -75,12 +78,12 @@ button:focus-visible {
 }
 
 .container{
-  @apply my-0 mx-auto w-[80vw] border border-black;
+  @apply my-0 mx-auto w-[80vw];
 }
 
 .nav-links{
 
-@apply cursor-pointer border-b-2 border-transparent hover:border-primary-300; 
+  @apply cursor-pointer border-b-2 border-transparent hover:border-primary-300; 
 }
 
 @media (prefers-color-scheme: light) {

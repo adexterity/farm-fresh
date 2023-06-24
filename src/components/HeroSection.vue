@@ -3,29 +3,31 @@
 </script>
 
 <template>
-    <section class="hero-section font-body h-[100vh] pt-[50px] relative">
-        <div class="container flex justify-between items-center">
+    <section class="hero-section font-body min-h-[100vh] pt-[50px] relative">
+        <div class="container flex md:flex-nowrap md:flex-row flex-col flex-wrap md:justify-between items-center">
 
             <!-- hero text -->
-            <div class="border text-left">
+            <div class=" md:text-left flex flex-col justify-center text-center mb-[20px] ">
 
-                <h2 class="hero-text text-[80px] font-xl leading-none">Fresh outta<br /> the <span
+                <h2 class="hero-text md:text-[80px]  text-[40px] md:font-xl leading-none">Fresh outta<br /> the <span
                         class="text-primary-300">Farm</span>!</h2>
                 <div>
 
-                    <h4 class="w-[423px] text-[24px] text-left my-5">Get freshly-harvested fruits, vegetables and farm
+                    <h4 class="md:w-[423px] w-[full] text-[24px] text-left my-5">Get freshly-harvested fruits, vegetables
+                        and farm
                         produce
                         delivered to
                         your doorstep.
                     </h4>
                 </div>
                 <button
-                    class="rounded-md bg-primary-300 text-white px-[100px] py-[15px] text-xl bg-gradient-to-r from-primary-300 to-primary-100">Get
+                    class="rounded-md bg-primary-300 text-white w-[80%] self-center md:px-[100px] px-[10px] py-[15px] text-xl bg-gradient-to-r from-primary-300 to-primary-100">Get
                     Started
                     <span class="text-xs">&#x3009;</span></button>
             </div>
             <!-- hero image -->
-            <div class="w-[400px] h-[400px] border "><img src="../assets/tomato.png" alt="tomato image" /></div>
+            <div class="md:w-[400px] md:h-[400px] w-[200px] h-[200px]"><img src="../assets/tomato.png" alt="tomato image" />
+            </div>
 
         </div>
         <div class="absolute bottom-10 right-0">

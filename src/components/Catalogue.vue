@@ -3,16 +3,16 @@
 </script>
 
 <template>
-    <section class="min-h-[100vh] font-body relative border py-[5px]">
+    <section class="min-h-[100vh] font-body relative py-[5px]">
         <img src="../assets/emojione.jpg" class="absolute top-0 left-0 z-[2]" />
-        <div class="container flex justify-around items-center">
+        <div class="container flex justify-around md:flex-nowrap flex-wrap items-center">
             <div class="catalogue-text z-[4]">
                 <h3 class="font-xl text-[30px]">Browse our catalog</h3>
                 <p>We have a range of products <br /> you can choose from</p>
             </div>
-            <div class="catalogue-cards flex flex-wrap w-[550px] border gap-6">
-                <div class="dairy-card rounded-[20px] bg-[#F9FABC] w-[250px] h-[250px] relative">
-                    <div class="mt-3 ml-3">
+            <div class="catalogue-cards flex flex-wrap w-[550px] gap-6">
+                <div class="dairy-card rounded-[20px] bg-[#F9FABC] w-[250px] h-[250px]  z-[3] relative">
+                    <div class="mt-3 ml-3 ">
 
                         <img src="../assets/dairy-image-vec.svg" alt="icon of diary product" />
                         <p class="mt-3">Diary Products</p>
@@ -24,7 +24,7 @@
 
                     </div>
                 </div>
-                <div class="meat-card rounded-[20px] bg-[#F2D3B6] w-[250px] h-[250px] relative">
+                <div class="meat-card rounded-[20px] bg-[#F2D3B6] w-[250px] h-[250px]  z-[3] relative">
                     <div class="mt-3 ml-3">
 
                         <img src="../assets/meat-icon.svg" alt="icon of meat product" />
@@ -37,7 +37,7 @@
 
                     </div>
                 </div>
-                <div class="vegetable-card rounded-[20px] bg-[#E5EFB2] w-[250px] h-[250px] relative">
+                <div class="vegetable-card rounded-[20px] bg-[#E5EFB2] w-[250px] h-[250px]  z-[3] relative">
                     <div class="mt-3 ml-3">
 
                         <img src="../assets/vegetable-icon.svg" alt="icon of vegetable product" />

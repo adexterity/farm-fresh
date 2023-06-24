@@ -1,9 +1,15 @@
 <script setup>
+import { ref, onMounted } from 'vue';
+
+const currentPosition = ref(null);
+const updatedPosition = () => (currentPosition.value = window.scrollY);
+onMounted(() => window.addEventListener('scroll', updatedPosition));
+
 
 </script>
 
 <template>
-    <div class="top-0  sticky container z-10">
+    <div class="top-0  sticky container z-10" :class="{ scroll: currentPosition > 50 }">
         <nav class="h-10 flex justify-around items-center font-body  py-[50px] text-xl">
             <h2 class="logo">
                 <a href="#" class="text-[36px] text-primary-300 font-xl">
@@ -29,10 +35,14 @@
                 <li class=" mx-2 p-4"><a href="#" class="nav-links">Contact</a>
                 </li>
             </ul>
-            <button class="btn login-btn border-2 py-4 px-20 rounded-xl border-primary-300 text-primary-300">Login</button>
+            <button class="btn login-btn border-2 py-4 px-10 rounded-xl border-primary-300 text-primary-300">Login</button>
 
         </nav>
     </div>
 </template>
 
-<style></style>
+<style>
+.scroll {
+    background: #fff;
+}
+</style>

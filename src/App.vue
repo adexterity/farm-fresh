@@ -22,8 +22,11 @@ import Footer from './components/Footer.vue';
     <!-- whyFarmFresh section -->
     <WhyFarmFresh />
 
-    <!-- testimonail section -->
+    <!-- testimonial section -->
     <Testimonial />
+
+    <!-- Footer section -->
+    <Footer />
 
   </div>
 </template>

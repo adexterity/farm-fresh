@@ -1,12 +1,11 @@
 <script setup></script>
 <template>
-    <section
-        class="testimonial relative min-h-[100vh] border font-body bg-[url('../assets/images/bg-testimonial.jpg')] bg-cover">
+    <section class="testimonial relative min-h-[100vh] font-body bg-[url('../assets/images/bg-testimonial.jpg')] bg-cover">
         <img class="absolute bottom-0 right-0" src="../assets/images/bg-testimonial-designs.png" />
         <div class="container flex flex-col items-center">
 
             <!-- heading -->
-            <h3 class="font-bold text-black text-[40px] mt-[40px] ">Our product speaks for us</h3>
+            <h3 class="font-bold text-black md:text-[40px] text-[20px] mt-[40px] ">Our product speaks for us</h3>
 
             <!-- logos -->
             <div class="logos flex justify-evenly gap-[50px] flex-wrap my-[30px]">
